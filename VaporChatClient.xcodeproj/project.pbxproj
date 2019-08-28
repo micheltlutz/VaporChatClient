@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D052E6A623161B6E00EC90C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052E6A523161B6E00EC90C5 /* AppDelegate.swift */; };
+		D052E6A823161B6E00EC90C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052E6A723161B6E00EC90C5 /* ViewController.swift */; };
+		D052E6AB23161B6E00EC90C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D052E6A923161B6E00EC90C5 /* Main.storyboard */; };
+		D052E6AD23161B6F00EC90C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D052E6AC23161B6F00EC90C5 /* Assets.xcassets */; };
+		D052E6B023161B6F00EC90C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D052E6AE23161B6F00EC90C5 /* LaunchScreen.storyboard */; };
+		D052E6BB23161B7000EC90C5 /* VaporChatClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052E6BA23161B7000EC90C5 /* VaporChatClientTests.swift */; };
+		D052E6C623161B7000EC90C5 /* VaporChatClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052E6C523161B7000EC90C5 /* VaporChatClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D052E6B723161B7000EC90C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D052E69A23161B6E00EC90C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D052E6A123161B6E00EC90C5;
+			remoteInfo = VaporChatClient;
+		};
+		D052E6C223161B7000EC90C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D052E69A23161B6E00EC90C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D052E6A123161B6E00EC90C5;
+			remoteInfo = VaporChatClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D052E6A223161B6E00EC90C5 /* VaporChatClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaporChatClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D052E6A523161B6E00EC90C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D052E6A723161B6E00EC90C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D052E6AA23161B6E00EC90C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D052E6AC23161B6F00EC90C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D052E6AF23161B6F00EC90C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D052E6B123161B6F00EC90C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D052E6B623161B7000EC90C5 /* VaporChatClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaporChatClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D052E6BA23161B7000EC90C5 /* VaporChatClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaporChatClientTests.swift; sourceTree = "<group>"; };
+		D052E6BC23161B7000EC90C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D052E6C123161B7000EC90C5 /* VaporChatClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaporChatClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D052E6C523161B7000EC90C5 /* VaporChatClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaporChatClientUITests.swift; sourceTree = "<group>"; };
+		D052E6C723161B7000EC90C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D052E69F23161B6E00EC90C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D052E6B323161B7000EC90C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D052E6BE23161B7000EC90C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D052E69923161B6E00EC90C5 = {
+			isa = PBXGroup;
+			children = (
+				D052E6A423161B6E00EC90C5 /* VaporChatClient */,
+				D052E6B923161B7000EC90C5 /* VaporChatClientTests */,
+				D052E6C423161B7000EC90C5 /* VaporChatClientUITests */,
+				D052E6A323161B6E00EC90C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D052E6A323161B6E00EC90C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D052E6A223161B6E00EC90C5 /* VaporChatClient.app */,
+				D052E6B623161B7000EC90C5 /* VaporChatClientTests.xctest */,
+				D052E6C123161B7000EC90C5 /* VaporChatClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D052E6A423161B6E00EC90C5 /* VaporChatClient */ = {
+			isa = PBXGroup;
+			children = (
+				D052E6A523161B6E00EC90C5 /* AppDelegate.swift */,
+				D052E6A723161B6E00EC90C5 /* ViewController.swift */,
+				D052E6A923161B6E00EC90C5 /* Main.storyboard */,
+				D052E6AC23161B6F00EC90C5 /* Assets.xcassets */,
+				D052E6AE23161B6F00EC90C5 /* LaunchScreen.storyboard */,
+				D052E6B123161B6F00EC90C5 /* Info.plist */,
+			);
+			path = VaporChatClient;
+			sourceTree = "<group>";
+		};
+		D052E6B923161B7000EC90C5 /* VaporChatClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				D052E6BA23161B7000EC90C5 /* VaporChatClientTests.swift */,
+				D052E6BC23161B7000EC90C5 /* Info.plist */,
+			);
+			path = VaporChatClientTests;
+			sourceTree = "<group>";
+		};
+		D052E6C423161B7000EC90C5 /* VaporChatClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D052E6C523161B7000EC90C5 /* VaporChatClientUITests.swift */,
+				D052E6C723161B7000EC90C5 /* Info.plist */,
+			);
+			path = VaporChatClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D052E6A123161B6E00EC90C5 /* VaporChatClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D052E6CA23161B7000EC90C5 /* Build configuration list for PBXNativeTarget "VaporChatClient" */;
+			buildPhases = (
+				D052E69E23161B6E00EC90C5 /* Sources */,
+				D052E69F23161B6E00EC90C5 /* Frameworks */,
+				D052E6A023161B6E00EC90C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaporChatClient;
+			productName = VaporChatClient;
+			productReference = D052E6A223161B6E00EC90C5 /* VaporChatClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D052E6B523161B7000EC90C5 /* VaporChatClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D052E6CD23161B7000EC90C5 /* Build configuration list for PBXNativeTarget "VaporChatClientTests" */;
+			buildPhases = (
+				D052E6B223161B7000EC90C5 /* Sources */,
+				D052E6B323161B7000EC90C5 /* Frameworks */,
+				D052E6B423161B7000EC90C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D052E6B823161B7000EC90C5 /* PBXTargetDependency */,
+			);
+			name = VaporChatClientTests;
+			productName = VaporChatClientTests;
+			productReference = D052E6B623161B7000EC90C5 /* VaporChatClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D052E6C023161B7000EC90C5 /* VaporChatClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D052E6D023161B7000EC90C5 /* Build configuration list for PBXNativeTarget "VaporChatClientUITests" */;
+			buildPhases = (
+				D052E6BD23161B7000EC90C5 /* Sources */,
+				D052E6BE23161B7000EC90C5 /* Frameworks */,
+				D052E6BF23161B7000EC90C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D052E6C323161B7000EC90C5 /* PBXTargetDependency */,
+			);
+			name = VaporChatClientUITests;
+			productName = VaporChatClientUITests;
+			productReference = D052E6C123161B7000EC90C5 /* VaporChatClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D052E69A23161B6E00EC90C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Michel Lutz";
+				TargetAttributes = {
+					D052E6A123161B6E00EC90C5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D052E6B523161B7000EC90C5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D052E6A123161B6E00EC90C5;
+					};
+					D052E6C023161B7000EC90C5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D052E6A123161B6E00EC90C5;
+					};
+				};
+			};
+			buildConfigurationList = D052E69D23161B6E00EC90C5 /* Build configuration list for PBXProject "VaporChatClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D052E69923161B6E00EC90C5;
+			productRefGroup = D052E6A323161B6E00EC90C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D052E6A123161B6E00EC90C5 /* VaporChatClient */,
+				D052E6B523161B7000EC90C5 /* VaporChatClientTests */,
+				D052E6C023161B7000EC90C5 /* VaporChatClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D052E6A023161B6E00EC90C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D052E6B023161B6F00EC90C5 /* LaunchScreen.storyboard in Resources */,
+				D052E6AD23161B6F00EC90C5 /* Assets.xcassets in Resources */,
+				D052E6AB23161B6E00EC90C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D052E6B423161B7000EC90C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D052E6BF23161B7000EC90C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D052E69E23161B6E00EC90C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D052E6A823161B6E00EC90C5 /* ViewController.swift in Sources */,
+				D052E6A623161B6E00EC90C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D052E6B223161B7000EC90C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D052E6BB23161B7000EC90C5 /* VaporChatClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D052E6BD23161B7000EC90C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D052E6C623161B7000EC90C5 /* VaporChatClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D052E6B823161B7000EC90C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D052E6A123161B6E00EC90C5 /* VaporChatClient */;
+			targetProxy = D052E6B723161B7000EC90C5 /* PBXContainerItemProxy */;
+		};
+		D052E6C323161B7000EC90C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D052E6A123161B6E00EC90C5 /* VaporChatClient */;
+			targetProxy = D052E6C223161B7000EC90C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D052E6A923161B6E00EC90C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D052E6AA23161B6E00EC90C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D052E6AE23161B6F00EC90C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D052E6AF23161B6F00EC90C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D052E6C823161B7000EC90C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D052E6C923161B7000EC90C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D052E6CB23161B7000EC90C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25RYDD756Z;
+				INFOPLIST_FILE = VaporChatClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.micheltlutz.VaporChatClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D052E6CC23161B7000EC90C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25RYDD756Z;
+				INFOPLIST_FILE = VaporChatClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.micheltlutz.VaporChatClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D052E6CE23161B7000EC90C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25RYDD756Z;
+				INFOPLIST_FILE = VaporChatClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.micheltlutz.VaporChatClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaporChatClient.app/VaporChatClient";
+			};
+			name = Debug;
+		};
+		D052E6CF23161B7000EC90C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25RYDD756Z;
+				INFOPLIST_FILE = VaporChatClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.micheltlutz.VaporChatClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaporChatClient.app/VaporChatClient";
+			};
+			name = Release;
+		};
+		D052E6D123161B7000EC90C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25RYDD756Z;
+				INFOPLIST_FILE = VaporChatClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.micheltlutz.VaporChatClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaporChatClient;
+			};
+			name = Debug;
+		};
+		D052E6D223161B7000EC90C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25RYDD756Z;
+				INFOPLIST_FILE = VaporChatClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.micheltlutz.VaporChatClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaporChatClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D052E69D23161B6E00EC90C5 /* Build configuration list for PBXProject "VaporChatClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D052E6C823161B7000EC90C5 /* Debug */,
+				D052E6C923161B7000EC90C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D052E6CA23161B7000EC90C5 /* Build configuration list for PBXNativeTarget "VaporChatClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D052E6CB23161B7000EC90C5 /* Debug */,
+				D052E6CC23161B7000EC90C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D052E6CD23161B7000EC90C5 /* Build configuration list for PBXNativeTarget "VaporChatClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D052E6CE23161B7000EC90C5 /* Debug */,
+				D052E6CF23161B7000EC90C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D052E6D023161B7000EC90C5 /* Build configuration list for PBXNativeTarget "VaporChatClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D052E6D123161B7000EC90C5 /* Debug */,
+				D052E6D223161B7000EC90C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D052E69A23161B6E00EC90C5 /* Project object */;
+}
