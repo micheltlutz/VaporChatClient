@@ -14,6 +14,9 @@
 		D052E6B023161B6F00EC90C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D052E6AE23161B6F00EC90C5 /* LaunchScreen.storyboard */; };
 		D052E6BB23161B7000EC90C5 /* VaporChatClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052E6BA23161B7000EC90C5 /* VaporChatClientTests.swift */; };
 		D052E6C623161B7000EC90C5 /* VaporChatClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052E6C523161B7000EC90C5 /* VaporChatClientUITests.swift */; };
+		D052E6D423161B8400EC90C5 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052E6D323161B8400EC90C5 /* WebSocket.swift */; };
+		D052E6D723161B9300EC90C5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D052E6D623161B9300EC90C5 /* libz.tbd */; };
+		D052E6D923161BE100EC90C5 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052E6D823161BE000EC90C5 /* ChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D052E6C123161B7000EC90C5 /* VaporChatClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaporChatClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D052E6C523161B7000EC90C5 /* VaporChatClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaporChatClientUITests.swift; sourceTree = "<group>"; };
 		D052E6C723161B7000EC90C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D052E6D323161B8400EC90C5 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		D052E6D623161B9300EC90C5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D052E6D823161BE000EC90C5 /* ChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D052E6D723161B9300EC90C5 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				D052E6B923161B7000EC90C5 /* VaporChatClientTests */,
 				D052E6C423161B7000EC90C5 /* VaporChatClientUITests */,
 				D052E6A323161B6E00EC90C5 /* Products */,
+				D052E6D523161B9300EC90C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				D052E6A523161B6E00EC90C5 /* AppDelegate.swift */,
+				D052E6D823161BE000EC90C5 /* ChatMessage.swift */,
 				D052E6A723161B6E00EC90C5 /* ViewController.swift */,
+				D052E6D323161B8400EC90C5 /* WebSocket.swift */,
 				D052E6A923161B6E00EC90C5 /* Main.storyboard */,
 				D052E6AC23161B6F00EC90C5 /* Assets.xcassets */,
 				D052E6AE23161B6F00EC90C5 /* LaunchScreen.storyboard */,
@@ -123,6 +133,14 @@
 				D052E6C723161B7000EC90C5 /* Info.plist */,
 			);
 			path = VaporChatClientUITests;
+			sourceTree = "<group>";
+		};
+		D052E6D523161B9300EC90C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D052E6D623161B9300EC90C5 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D052E6A823161B6E00EC90C5 /* ViewController.swift in Sources */,
+				D052E6D923161BE100EC90C5 /* ChatMessage.swift in Sources */,
+				D052E6D423161B8400EC90C5 /* WebSocket.swift in Sources */,
 				D052E6A623161B6E00EC90C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25RYDD756Z;
 				INFOPLIST_FILE = VaporChatClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25RYDD756Z;
 				INFOPLIST_FILE = VaporChatClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
